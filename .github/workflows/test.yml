@@ -13,7 +13,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v6
         with:
-          ref: v3.9.1
+          ref: b0a6de6a
 
       - name: Set up workspace
         uses: ./.github/actions/setup
