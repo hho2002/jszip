@@ -11,7 +11,9 @@ jobs:
         node-version: [8, 10, 12, 14, 16, 18, 20]
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
+        with:
+          ref: v3.9.1
 
       - name: Set up workspace
         uses: ./.github/actions/setup
