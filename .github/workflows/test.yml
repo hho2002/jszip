@@ -12,8 +12,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
-        with:
-          ref: b0a6de6a
 
       - name: Set up workspace
         uses: ./.github/actions/setup
