@@ -19,5 +19,5 @@ runs:
     - name: Install dependencies
       # Because the lockfile is not compatible between all supported Node.js versions we need to run `npm install`.
       # When support for older versions of Node.js is dropped, this can be changed to `npm ci`.
-      run: npm install
+      run: npm ci
       shell: bash
